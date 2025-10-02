@@ -45,7 +45,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented required features:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='400px' alt='Video Walkthrough' />
+<img src='./walkthrough.gif' title='Video Walkthrough' width='400px' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with [Kap](https://getkap.co/) and [Obs Studio](https://obsproject.com/)  
