@@ -1,0 +1,39 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.app {
+  padding: 20px;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+}
+
+.flashcard-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.button-container {
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+
+[data-lk-component="button"] {
+  width: 150px;
+  min-width: 150px;
+  max-width: 150px;
+  text-align: center;
+  justify-content: center;
+}

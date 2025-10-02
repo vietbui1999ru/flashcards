@@ -1,18 +1,17 @@
 import './App.css'
-import './components/FlashcardCard.tsx'
-import './components/Header.tsx'
-import './components/CardCounter.tsx'
-import './components/FlashcardContainer.tsx'
-import './components/Decoration.tsx'
-import './components/FlashcardContainer.tsx'
-import './components/ControlButtons.tsx'
-import './components/QuestionDisplay.tsx'
-import { flashcards } from './data/flashcards'
+import './components/flashcard/FlashcardCard.tsx'
+import './components/layout/Header.tsx'
+import './components/flashcard/CardCounter.tsx'
+import FlashCardContainer from './components/layout/FlashcardContainer.tsx'
+import './components/layout/Decoration.tsx'
+import './components/flashcard/ControlButtons.tsx'
 
 function App() {
 
   return (
-    console.log(flashcards)
+    <div className="app">
+      <FlashCardContainer />
+    </ div>
   )
 }
 

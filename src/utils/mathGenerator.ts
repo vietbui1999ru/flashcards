@@ -62,14 +62,14 @@ const generateQuestion = (id: number): MathFlashcard => {
 		op = getRandomOperation();
 		[ans, isValid] = calculateAnswer(a, b, op)
 	}
-	const object: MathFlashcard = {
+	const flashcardObject: MathFlashcard = {
 		id: id,
 		question: `${a} ${op} ${b}`,
 		answer: ans.toPrecision(5),
 		a: a,
 		b: b,
 	};
-	return object
+	return flashcardObject
 }
 
 export default generateQuestion;
